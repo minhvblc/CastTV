@@ -1,0 +1,19 @@
+{
+  "name": "androidtv-remote",
+  "version": "1.0.0",
+  "description": "AndroidTV Remote",
+  "main": "main.js",
+  "author": "huyphan",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "n": "^8.2.0",
+    "stable": "^0.1.8",
+    "crypto-js": "^4.1.1",
+    "node-forge": "^0.10.0",
+    "protobufjs": "^6.11.2",
+    "systeminformation": "^5.9.17",
+    "core-js": "^3.20.2"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "nodebridge",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kewlbear/NodeBridge.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "aa38015fff743fcd9d27df4546d9c1d98ef3a44e"
+      }
+    },
+    {
+      "identity" : "nodedecoder",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kewlbear/NodeDecoder.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "1f7d8db8b460fae807775334af2bd3c34caa54b6"
+      }
+    },
+    {
+      "identity" : "nodejs-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kewlbear/nodejs-ios.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "c0c49b3b4522ad651ebd8b794bb9b3b4cfe18588"
+      }
+    }
+  ],
+  "version" : 2
+}
