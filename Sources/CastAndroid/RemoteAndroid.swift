@@ -27,6 +27,7 @@ class RemoteAndroid {
     public
     static let shared: RemoteAndroid = RemoteAndroid()
     
+    public
     func connect(url: String) {
         nodeQueue.async {
             NodeRunner.startEngine(arguments: [
@@ -47,6 +48,7 @@ class RemoteAndroid {
         ])
     }
     
+    public
     func disConnect() {
         guard let url else { return }
         callJS(dict: [
